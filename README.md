@@ -1,4 +1,4 @@
-# 🚀 Learning Curve: The Engineering Logbook
+#  Learning Curve: The Engineering Logbook
 
 Welcome to my primary repository for tracking my transition into systems engineering, low-level architecture, and computer science fundamentals. This repository acts as a transparent, day-by-day audit trail of my technical journey, core programming execution, and engineering grit.
 
