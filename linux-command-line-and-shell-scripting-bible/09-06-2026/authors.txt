@@ -1,0 +1,5 @@
+c++	Thinking in c++			1990	Bruce Eckel
+Apti	Quantum Cat			2020	Sarvesh Verma
+Linker	Linkers and Loaders		2000	John Levine
+Java	Effective Java			2017	Joshua Bloch
+Linux	Linux System Programming	2015	Robert Love
