@@ -1,7 +1,7 @@
-#!/bin/bash
-if [$USER = "ashborn"]; then
+\#!/bin/bash
+if [ $USER = "ashborn" ]; then
 	ls
-elif [$HOME != "/home/ashborn"]; then
+elif [ $HOME = "/home/ashborn" ]; then
 	ls -l
 elif [ -n "bash" ]; then
 	pwd

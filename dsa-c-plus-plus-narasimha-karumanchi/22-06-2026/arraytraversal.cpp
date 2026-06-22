@@ -3,9 +3,15 @@ using namespace std;
 int main(){
 	int arr[]={3,2,5,7,9,14,18};
 	int i = 0;
-	int j= (sizeof(arr)/sizeof(arr[0]))-1;
+	int length = sizeof(arr)/sizeof(arr[0]);
+	int j = length - 1;
 	int temp;
-	cout << arr[0,1,2,3,4,5,6] << "\n";
+	
+	for(int k=0; k < length ; k++){
+		cout << arr[k] << " ";
+	}
+	cout << "\n";
+
 	while(i<j){
 		temp=arr[i];
 		arr[i]=arr[j];
@@ -13,6 +19,11 @@ int main(){
 		i++;
 		j--;
 	}
-	cout << arr[0,1,2,3,4,5,6] << "\n";
+
+	for(int k=0 ; k < length ; k++){
+		cout << arr[k] << " ";
+	}
+	cout << "\n";
+	
 	return 0;
 }
