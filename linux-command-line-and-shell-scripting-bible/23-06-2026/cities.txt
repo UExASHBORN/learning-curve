@@ -1,0 +1,6 @@
+Lucknow	Junction
+Kanpur	city
+Jaunpur	EAST
+Nagpur
+Rampur
+Deoria
