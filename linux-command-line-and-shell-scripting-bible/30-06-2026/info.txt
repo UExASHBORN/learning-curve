@@ -1,0 +1,2 @@
+ls: cannot access 'bbc.txt': No such file or directory
+-rw-rw-r-- 1 ashborn ashborn 24220 Jun 30 17:30 abc.txt
