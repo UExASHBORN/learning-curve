@@ -1,0 +1,16 @@
+#include<iostream>
+#include<list>
+using namespace std;
+int main(){
+	list <int> li;
+	li.push_front(10);
+	li.push_front(20);
+	li.push_front(30);
+	list<int>::reverse_iterator itr=li.rbegin();
+	while( itr!=li.rend() ){
+		cout << *itr << "\n";
+		itr ++;
+	}
+	cout << "\n";
+	return 0;
+}
