@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.child{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    border: 3px solid black;
+    background-image: url(https://imgs.search.brave.com/fqnaUEGNM3ihZtOfp0pbMNRdcc-T-F7oWGK0GnYd8To/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDgzNjA2/MzEuanBn);
+    background-size: cover;
+    background-position: top;
+}
+
+#child2{
+    background-image: url(https://imgs.search.brave.com/nTUp7TXPCzzNT4_UMdbG809tQVpcY18Gbf-G6C-4PA8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpUSTRaR014/TjJVdE9EbGtZUzAw/TVRCakxXRTFZemN0/WXpjM05EVmlNR0kw/Wm1KbVhrRXlYa0Zx/Y0djQC5qcGc);
+}
+
+#child3{
+    background-image: url(https://imgs.search.brave.com/vMMHz3-6agjlfoNu0sFz2liGK6PVyv6yYmp9DdwZYGY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk3LzY4/L2E4Lzk3NjhhOGU1/ODZkNzE5YjBkN2I3/YzFhOWYwYzJmZDRm/LmpwZw);
+}
+
