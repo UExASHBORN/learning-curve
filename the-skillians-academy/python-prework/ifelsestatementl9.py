@@ -27,7 +27,7 @@ else:
 
 
 
-#profram to check whether the number is odd or even
+#program to check whether the number is odd or even
 num = 11
 
 if num%2 == 0:
